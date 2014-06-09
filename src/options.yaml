@@ -1,0 +1,51 @@
+name: throttle
+
+url:
+  https://github.com/fnobi/throttle
+
+repository:
+  git://github.com/fnobi/throttle.git
+
+title:
+  throttle
+
+description:
+  basic function throttle.
+
+keywords: []
+
+favicon_url: ''
+
+viewport: 
+  - width=device-width
+  - initial-scale=1.0
+  - maximum-scale=1.0
+  - user-scalable=0
+
+ios_icon_url: ''
+
+facebook_app_id: ''
+
+ogp_type: 'website'
+
+ogp_image_url: ''
+ogp_image_width: 0
+ogp_image_height: 0
+
+
+sns:
+  twitter:
+    sharetext:
+      basic function throttle.      
+    sharehashtag: []
+
+  facebook:
+    app_id: ''
+    sharetext:
+      basic function throttle.
+
+ogp:
+  image: 
+    url: https://github.com/fnobi/throttle/img/ogp-icon.png
+    width: 300
+    height: 300

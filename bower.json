@@ -1,0 +1,15 @@
+{
+  "name": "throttle",
+  "version": "0.1.0",
+  "main": "src/js/throttle.js",
+  "dependencies": {
+  },
+  "ignore": [
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "src/test",
+    "src/ejs",
+    "src/options.yaml"
+  ]
+}
