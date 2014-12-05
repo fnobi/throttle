@@ -15,13 +15,3 @@ function throttle (fn, interval) {
 
     return exec;
 }
-
-
-
-
-
-
-
-
-
-
