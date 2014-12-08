@@ -1,7 +1,7 @@
 function throttle (fn, interval) {
     var isWaiting = false;
 
-    var exec = function () {
+    var exec = function (event) {
         if (isWaiting) {
             return;
         }
@@ -9,7 +9,7 @@ function throttle (fn, interval) {
         isWaiting = true;
         setTimeout(function () {
             isWaiting = false;
-            fn();
+            fn(event);
         }, interval);
     };
 

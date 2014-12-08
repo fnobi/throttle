@@ -13,7 +13,7 @@ bower install throttle
 
 ```javascript
 // exec on resize function once in every seconds
-$(window).on('resize', throttle(function () {
+$(window).on('resize', throttle(function (event) {
     onResize();
 }, 1000));
 
