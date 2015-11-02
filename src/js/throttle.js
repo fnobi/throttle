@@ -5,11 +5,12 @@ function throttle (fn, interval) {
         if (isWaiting) {
             return;
         }
+        var args = arguments;
 
         isWaiting = true;
         setTimeout(function () {
             isWaiting = false;
-            fn(event);
+            fn.apply(this, args);
         }, interval);
     };
 
